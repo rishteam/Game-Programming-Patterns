@@ -52,7 +52,7 @@ void InputHandler::handleInput(){
 			printf("D pressed, ");
 			buttonD_->execute();
 		}
-		else if(sf::Keyboard::isKeyPressed(sf::Keyboard::E)) up_side_down();
+		else if(key == eKey::E) up_side_down();
 		else prevKey = eKey::NONE;
 	}
 	else prevKey = eKey::NONE;
