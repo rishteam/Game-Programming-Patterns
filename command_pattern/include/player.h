@@ -29,7 +29,7 @@ public:
         x = 10;
         y = 20;
         //
-        shape.setRadius(150);
+        shape.setRadius(15);
         shape.setOutlineColor(sf::Color::Red);
         shape.setOutlineThickness(5);
         shape.setPosition(x, y);

@@ -22,18 +22,30 @@ target_include_directories(CommandPattern
     PRIVATE ${PROJECT_SOURCE_DIR}/include
 )
 
-find_package(SFML 2.5 COMPONENTS graphics audio window REQUIRED)
+find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
+if(NOT SFML_FOUND)
+    message(FATAL_ERROR "SFML not found")
+endif(NOT SFML_FOUND)
+
+find_package(ImGui-SFML REQUIRED)
+if(NOT ImGui-SFML_FOUND)
+    message(FATAL_ERROR "ImGui-SFML not found")
+endif(NOT ImGui-SFML_FOUND)
 
 if(APPLE)
-    target_link_libraries(CommandPattern sfml-graphics sfml-audio)
+    target_link_libraries(CommandPattern
+        sfml-system sfml-window sfml-graphics sfml-network sfml-audio
+    )
 endif(APPLE)
 
 if(MSYS)
     target_link_libraries(CommandPattern
-        sfml-graphics sfml-audio
+        ImGui-SFML::ImGui-SFML
+        sfml-system sfml-window sfml-graphics sfml-network sfml-audio
         # For static libraries
         -static-libgcc -static-libstdc++ -lwsock32 -lws2_32
         -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive
+        -mwindows
     )
 endif(MSYS)
 
