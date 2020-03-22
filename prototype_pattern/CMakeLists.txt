@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(CommandPattern)
+project(PrototypePattern)
 
 if(MSYS)
     set(SFML_STATIC_LIBRARIES TRUE)
@@ -12,24 +12,23 @@ if(MSYS)
     set(SFML_DIR "/mingw32/lib/cmake/SFML")
 endif(MSYS)
 
-add_executable(CommandPattern
+add_executable(PrototypePattern
     src/main.cpp
     #
-    src/player.cpp
-    src/command.cpp
+    src/monster.cpp
 )
-target_include_directories(CommandPattern
+target_include_directories(PrototypePattern
     PRIVATE ${PROJECT_SOURCE_DIR}/include
 )
 
 find_package(SFML 2.5 COMPONENTS graphics audio window REQUIRED)
 
 if(APPLE)
-    target_link_libraries(CommandPattern sfml-graphics sfml-audio)
+    target_link_libraries(PrototypePattern sfml-graphics sfml-audio)
 endif(APPLE)
 
 if(MSYS)
-    target_link_libraries(CommandPattern
+    target_link_libraries(PrototypePattern
         sfml-graphics sfml-audio
         # For static libraries
         -static-libgcc -static-libstdc++ -lwsock32 -lws2_32
