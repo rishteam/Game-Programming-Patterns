@@ -9,7 +9,7 @@ Player player;
 int main()
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "CSGO");
+    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Command Pattern");
 
     // Start the game loop
     while (window.isOpen())
