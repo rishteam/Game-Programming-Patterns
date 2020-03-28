@@ -10,7 +10,8 @@ project(example
 add_library(mylib STATIC
     src/player.cpp
 	src/shootState.cpp
-	src/standState.cpp
+    src/standState.cpp
+    src/playerState.cpp
 )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include

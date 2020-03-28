@@ -2,15 +2,13 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
-#include<iostream>
-#include<playerState.h>
+#include <iostream>
 
-class PlayerState;
+#include "playerState.h"
 
 class Player{
-
 public:
-	
+
 	Player();
 	~Player() = default;
 
@@ -19,6 +17,5 @@ public:
 
 	PlayerState* state_;
 private:
-
 
 };

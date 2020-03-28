@@ -2,3 +2,4 @@
 *.obj*.exe
 test.h
 test.cpp
+./*/build/
