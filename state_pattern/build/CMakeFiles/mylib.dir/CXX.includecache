@@ -26,25 +26,7 @@ iostream
 player.h
 -
 
-../include/shootState.h
-playerState.h
--
-
-../include/standState.h
-playerState.h
--
-player.h
--
-
 C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp
 player.h
--
-
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/shootState.cpp
-shootState.h
--
-
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp
-standState.h
 -
 

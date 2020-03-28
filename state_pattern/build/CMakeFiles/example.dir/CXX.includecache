@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+../include/StandState.h
+playerState.h
+-
+player.h
+-
+
 ../include/player.h
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+iostream
+-
 playerState.h
 -
 
@@ -28,5 +40,7 @@ SFML/Graphics.hpp
 SFML/System.hpp
 -
 player.h
+-
+StandState.h
 -
 

@@ -4,8 +4,8 @@ void StandState::handleInput(Player &player, sf::Keyboard::Key key){
 
 	if(key == sf::Keyboard::Q){
 
+		player.state_ = (PlayerState*)&PlayerState::shooting;
 		std::cout << "to shoot state\n";
-		player.state_ = &PlayerState::shooting;
 	}
 }
 
