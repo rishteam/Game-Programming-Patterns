@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/player.h
+playerState.h
+-
+
+../include/playerState.h
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+iostream
+-
+player.h
+-
+
+C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/main.cpp
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+player.h
+-
+
