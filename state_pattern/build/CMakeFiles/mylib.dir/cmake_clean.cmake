@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mylib.dir/src/player.cpp.obj"
+  "CMakeFiles/mylib.dir/src/playerState.cpp.obj"
   "CMakeFiles/mylib.dir/src/shootState.cpp.obj"
   "CMakeFiles/mylib.dir/src/standState.cpp.obj"
   "libmylib.a"

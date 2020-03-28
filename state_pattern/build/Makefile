@@ -190,6 +190,33 @@ src/player.cpp.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
+src/playerState.obj: src/playerState.cpp.obj
+
+.PHONY : src/playerState.obj
+
+# target to build an object file
+src/playerState.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/playerState.cpp.obj
+.PHONY : src/playerState.cpp.obj
+
+src/playerState.i: src/playerState.cpp.i
+
+.PHONY : src/playerState.i
+
+# target to preprocess a source file
+src/playerState.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/playerState.cpp.i
+.PHONY : src/playerState.cpp.i
+
+src/playerState.s: src/playerState.cpp.s
+
+.PHONY : src/playerState.s
+
+# target to generate assembly for a file
+src/playerState.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/playerState.cpp.s
+.PHONY : src/playerState.cpp.s
+
 src/shootState.obj: src/shootState.cpp.obj
 
 .PHONY : src/shootState.obj
@@ -260,6 +287,9 @@ help:
 	@echo "... src/player.obj"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/playerState.obj"
+	@echo "... src/playerState.i"
+	@echo "... src/playerState.s"
 	@echo "... src/shootState.obj"
 	@echo "... src/shootState.i"
 	@echo "... src/shootState.s"

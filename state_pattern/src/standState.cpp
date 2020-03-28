@@ -1,11 +1,12 @@
-#include<standState.h>
+#include "standState.h"
+#include "player.h"
 
 void StandState::handleInput(Player &player, sf::Keyboard::Key key){
 
 	if(key == sf::Keyboard::Q){
 
-		player.state_ = (PlayerState*)&PlayerState::shooting;
 		std::cout << "to shoot state\n";
+		player.state_ = (PlayerState*)&PlayerState::shooting;
 	}
 }
 

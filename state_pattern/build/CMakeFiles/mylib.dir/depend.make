@@ -3,7 +3,13 @@
 
 CMakeFiles/mylib.dir/src/player.cpp.obj: ../include/player.h
 CMakeFiles/mylib.dir/src/player.cpp.obj: ../include/playerState.h
+CMakeFiles/mylib.dir/src/player.cpp.obj: ../include/standState.h
 CMakeFiles/mylib.dir/src/player.cpp.obj: ../src/player.cpp
+
+CMakeFiles/mylib.dir/src/playerState.cpp.obj: ../include/playerState.h
+CMakeFiles/mylib.dir/src/playerState.cpp.obj: ../include/shootState.h
+CMakeFiles/mylib.dir/src/playerState.cpp.obj: ../include/standState.h
+CMakeFiles/mylib.dir/src/playerState.cpp.obj: ../src/playerState.cpp
 
 CMakeFiles/mylib.dir/src/shootState.cpp.obj: ../include/player.h
 CMakeFiles/mylib.dir/src/shootState.cpp.obj: ../include/playerState.h

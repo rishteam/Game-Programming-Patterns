@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/player.cpp.obj"
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/playerState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/playerState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/shootState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/shootState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/standState.cpp.obj"
   )

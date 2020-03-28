@@ -4,7 +4,13 @@
 CMakeFiles/mylib.dir/src/player.cpp.obj
  ../include/player.h
  ../include/playerState.h
+ ../include/standState.h
  C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp
+CMakeFiles/mylib.dir/src/playerState.cpp.obj
+ ../include/playerState.h
+ ../include/shootState.h
+ ../include/standState.h
+ C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/playerState.cpp
 CMakeFiles/mylib.dir/src/shootState.cpp.obj
  ../include/player.h
  ../include/playerState.h
