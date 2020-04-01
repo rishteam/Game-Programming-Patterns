@@ -4,6 +4,9 @@ Bullet::Bullet(float x, float y){
 
 	startPositionX_ = x_ = x;
 	startPositionY_ = y_ = y;
+	
+	shape.setRadius(5);
+	shape.setFillColor(sf::Color::Red);
 }
 
 void Bullet::setPosition(){
@@ -18,9 +21,9 @@ void Bullet::setPosition(float x, float y){
 
 void Bullet::update(){
 
-	y_ -= 1;
+	y_ -= 0.1;
 	shape.setPosition(x_, y_);
-}
+}	
 
 void Bullet::draw(sf::RenderTarget &target){
 

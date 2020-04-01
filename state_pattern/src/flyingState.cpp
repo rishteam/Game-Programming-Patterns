@@ -3,8 +3,9 @@
 
 void FlyingState::handleInput(Player &player, sf::Keyboard::Key key){
 
-	if(key == sf::Keyboard::Q){
+	if(key == sf::Keyboard::Space){
 
+		printf("shoot\n");
 		player.bullet_ = (BulletState*) &BulletState::generateing;
 	}
 }

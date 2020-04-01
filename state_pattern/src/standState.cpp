@@ -24,5 +24,5 @@ void StandState::handleInput(Player &player, sf::Keyboard::Key key){
 void StandState::update(Player &player){
 
 	// std::cout << "stand update\n";
-	printf("%.2f %.2f\n", player.x_, player.y_);
+	// printf("%.2f %.2f\n", player.x_, player.y_);
 }

@@ -10,12 +10,12 @@ public:
 
 	Bullet(float x, float y);
 	~Bullet() = default;
-	virtual void handleInput(sf::Keyboard::Key key);
-	virtual void update();
-	virtual void setPosition();
-	virtual void setPosition(float x, float y);
-	virtual void draw(sf::RenderTarget &target);
-	virtual float getDis();
+	void handleInput(sf::Keyboard::Key key);
+	void update();
+	void setPosition();
+	void setPosition(float x, float y);
+	void draw(sf::RenderTarget &target);
+	float getDis();
 
 
 	float startPositionX_, startPositionY_;

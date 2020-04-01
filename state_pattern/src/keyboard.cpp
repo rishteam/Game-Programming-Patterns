@@ -55,5 +55,7 @@ sf::Keyboard::Key Keyboard::getKey(){
 		return sf::Keyboard::Y;
 	else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Z))
 		return sf::Keyboard::Z;
+	else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+		return sf::Keyboard::Space;
 	else return sf::Keyboard::Unknown;
 }
