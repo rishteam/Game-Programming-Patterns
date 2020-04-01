@@ -21,6 +21,8 @@ add_library(mylib STATIC
 	src/shootState.cpp
     src/standState.cpp
     src/playerState.cpp
+    src/walk.cpp
+    src/keyboard.cpp
 )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include
@@ -31,12 +33,18 @@ add_executable(example
     src/main.cpp
 )
 target_include_directories(example
-    PRIVATE ${PROJECT_SOURCE_DIR}/include
+    PRIVATE ${PROJECT_SOURCE_DIR}/include   
 )
 find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
+
+target_link_libraries(mylib
+    sfml-system sfml-window sfml-graphics sfml-network sfml-audio
+)
 target_link_libraries(example
     sfml-system sfml-window sfml-graphics sfml-network sfml-audio
 )
+
+
 
 if(APPLE)
     target_link_libraries(example

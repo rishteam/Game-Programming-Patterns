@@ -246,6 +246,9 @@ example_BINARY_DIR:STATIC=C:/Users/lpc0503/Desktop/Game-Programming-Patterns/sta
 //Value Computed by CMake
 example_SOURCE_DIR:STATIC=C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern
 
+//Dependencies for the target
+mylib_LIB_DEPENDS:STATIC=general;sfml-system;general;sfml-window;general;sfml-graphics;general;sfml-network;general;sfml-audio;
+
 
 ########################
 # INTERNAL cache entries

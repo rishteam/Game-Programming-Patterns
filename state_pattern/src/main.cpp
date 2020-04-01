@@ -2,9 +2,11 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 
-#include<player.h>
-#include<StandState.h>
+#include <iostream>
+#include <player.h>
+#include "keyboard.h"
 
+Keyboard keyboard;
 
 int main(){
 
@@ -12,16 +14,46 @@ int main(){
 	Player player;
 	int counter = 0;
 
-	std::cout << "press Q shoot, press E stand\n";
+	// std::cout << "press Q shoot, press E stand\n";
 	
+	sf::RenderWindow window(sf::VideoMode(1280, 720), "State Pattern");
 
-	while(1){
+	while(window.isOpen()){
 
-		counter++;
+		sf::Event event;
 
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) player.handleInput(sf::Keyboard::Q);
-		else if(sf::Keyboard::isKeyPressed(sf::Keyboard::E)) player.handleInput(sf::Keyboard::E);
+		while(window.pollEvent(event)){
+
+			if(event.type == sf::Event::Closed) window.close();
+
+			if(event.type == sf::Event::KeyPressed){
+
+				printf("key pressed\n");
+				player.handleInput(keyboard.getKey());
+			}
+
+			if(event.type == sf::Event::KeyReleased){
+
+				printf("key released\n");
+				player.handleInput(keyboard.getKey());
+			}
+		}
+
+		player.update();
+		window.clear();
+		player.draw(window);
+		window.display();
 	}
+
+
+
+	// while(1){
+
+	// 	counter++;
+
+	// 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) player.handleInput(sf::Keyboard::Q);
+	// 	else if(sf::Keyboard::isKeyPressed(sf::Keyboard::E)) player.handleInput(sf::Keyboard::E);
+	// }
 
 	return 0;
 }

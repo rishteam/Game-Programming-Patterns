@@ -4,12 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/player.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/playerState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/playerState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/shootState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/shootState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/standState.cpp.obj"
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/walk.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/walk.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "SFML_STATIC"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

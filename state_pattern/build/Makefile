@@ -136,6 +136,33 @@ example/fast:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
 .PHONY : example/fast
 
+src/keyboard.obj: src/keyboard.cpp.obj
+
+.PHONY : src/keyboard.obj
+
+# target to build an object file
+src/keyboard.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/keyboard.cpp.obj
+.PHONY : src/keyboard.cpp.obj
+
+src/keyboard.i: src/keyboard.cpp.i
+
+.PHONY : src/keyboard.i
+
+# target to preprocess a source file
+src/keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/keyboard.cpp.i
+.PHONY : src/keyboard.cpp.i
+
+src/keyboard.s: src/keyboard.cpp.s
+
+.PHONY : src/keyboard.s
+
+# target to generate assembly for a file
+src/keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/keyboard.cpp.s
+.PHONY : src/keyboard.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -271,6 +298,33 @@ src/standState.cpp.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/standState.cpp.s
 .PHONY : src/standState.cpp.s
 
+src/walk.obj: src/walk.cpp.obj
+
+.PHONY : src/walk.obj
+
+# target to build an object file
+src/walk.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/walk.cpp.obj
+.PHONY : src/walk.cpp.obj
+
+src/walk.i: src/walk.cpp.i
+
+.PHONY : src/walk.i
+
+# target to preprocess a source file
+src/walk.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/walk.cpp.i
+.PHONY : src/walk.cpp.i
+
+src/walk.s: src/walk.cpp.s
+
+.PHONY : src/walk.s
+
+# target to generate assembly for a file
+src/walk.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/walk.cpp.s
+.PHONY : src/walk.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,6 +335,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... mylib"
 	@echo "... example"
+	@echo "... src/keyboard.obj"
+	@echo "... src/keyboard.i"
+	@echo "... src/keyboard.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -296,6 +353,9 @@ help:
 	@echo "... src/standState.obj"
 	@echo "... src/standState.i"
 	@echo "... src/standState.s"
+	@echo "... src/walk.obj"
+	@echo "... src/walk.i"
+	@echo "... src/walk.s"
 .PHONY : help
 
 
