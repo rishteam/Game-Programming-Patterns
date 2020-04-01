@@ -2,11 +2,11 @@
 
 #include "bulletState.h"
 
-class DisappearState : public BulletState
+class FlyingState : public BulletState
 {
 
 public:
-	DisappearState() = default;
+	FlyingState() = default;
 	virtual void handleInput(Player &player, sf::Keyboard::Key key);
 	virtual void update(Player &player);
 };

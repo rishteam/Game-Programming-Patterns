@@ -18,15 +18,15 @@ endif(MSYS)
 # Add static library
 add_library(mylib STATIC
     src/player.cpp
+    src/bullet.cpp
 	src/shootState.cpp
     src/standState.cpp
     src/playerState.cpp
     src/walk.cpp
     src/keyboard.cpp
-    src/bullet.cpp
     src/bulletState.cpp
     src/generateState.cpp
-    src/disappearState.cpp
+    src/flyingState.cpp
 )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include

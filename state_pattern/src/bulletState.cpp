@@ -1,7 +1,7 @@
 #include "bulletState.h"
 
 #include "generateState.h"
-#include "disappearState.h"
+#include "flyingState.h"
 
 GenerateState BulletState::generateing;
-DisappearState BulletState::disappeared;
+FlyingState BulletState::flying;

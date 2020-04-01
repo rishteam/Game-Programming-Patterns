@@ -1,11 +1,11 @@
 #include "player.h"
 #include "standState.h"
-#include "disappearState.h"
+#include "flyingState.h"
 
 Player::Player(){
 
 	state_ = new StandState();
-	bullet_ = new DisappearState();
+	bullet_ = new FlyingState();
 
 	x_ = 10;
 	y_ = 650;

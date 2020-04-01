@@ -5,7 +5,7 @@
 #include <iostream>
 
 class GenerateState;
-class DisappearState;
+class FlyingState;
 
 class Player;
 
@@ -14,7 +14,7 @@ class BulletState
 public:
 
 	static GenerateState generateing;
-	static DisappearState disappeared;
+	static FlyingState flying;
 
 	virtual ~BulletState() = default;
 	virtual void handleInput(Player &player, sf::Keyboard::Key key) = 0;

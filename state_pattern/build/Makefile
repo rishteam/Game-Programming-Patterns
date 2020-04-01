@@ -190,32 +190,32 @@ src/bulletState.cpp.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bulletState.cpp.s
 .PHONY : src/bulletState.cpp.s
 
-src/disappearState.obj: src/disappearState.cpp.obj
+src/flyingState.obj: src/flyingState.cpp.obj
 
-.PHONY : src/disappearState.obj
+.PHONY : src/flyingState.obj
 
 # target to build an object file
-src/disappearState.cpp.obj:
-	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.obj
-.PHONY : src/disappearState.cpp.obj
+src/flyingState.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/flyingState.cpp.obj
+.PHONY : src/flyingState.cpp.obj
 
-src/disappearState.i: src/disappearState.cpp.i
+src/flyingState.i: src/flyingState.cpp.i
 
-.PHONY : src/disappearState.i
+.PHONY : src/flyingState.i
 
 # target to preprocess a source file
-src/disappearState.cpp.i:
-	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.i
-.PHONY : src/disappearState.cpp.i
+src/flyingState.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/flyingState.cpp.i
+.PHONY : src/flyingState.cpp.i
 
-src/disappearState.s: src/disappearState.cpp.s
+src/flyingState.s: src/flyingState.cpp.s
 
-.PHONY : src/disappearState.s
+.PHONY : src/flyingState.s
 
 # target to generate assembly for a file
-src/disappearState.cpp.s:
-	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.s
-.PHONY : src/disappearState.cpp.s
+src/flyingState.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/flyingState.cpp.s
+.PHONY : src/flyingState.cpp.s
 
 src/generateState.obj: src/generateState.cpp.obj
 
@@ -449,9 +449,9 @@ help:
 	@echo "... src/bulletState.obj"
 	@echo "... src/bulletState.i"
 	@echo "... src/bulletState.s"
-	@echo "... src/disappearState.obj"
-	@echo "... src/disappearState.i"
-	@echo "... src/disappearState.s"
+	@echo "... src/flyingState.obj"
+	@echo "... src/flyingState.i"
+	@echo "... src/flyingState.s"
 	@echo "... src/generateState.obj"
 	@echo "... src/generateState.i"
 	@echo "... src/generateState.s"

@@ -6,16 +6,16 @@ CMakeFiles/mylib.dir/src/bullet.cpp.obj
  C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp
 CMakeFiles/mylib.dir/src/bulletState.cpp.obj
  ../include/bulletState.h
- ../include/disappearState.h
+ ../include/flyingState.h
  ../include/generateState.h
  C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp
-CMakeFiles/mylib.dir/src/disappearState.cpp.obj
+CMakeFiles/mylib.dir/src/flyingState.cpp.obj
  ../include/bullet.h
  ../include/bulletState.h
- ../include/disappearState.h
+ ../include/flyingState.h
  ../include/player.h
  ../include/playerState.h
- C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/disappearState.cpp
+ C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/flyingState.cpp
 CMakeFiles/mylib.dir/src/generateState.cpp.obj
  ../include/bullet.h
  ../include/bulletState.h
@@ -29,7 +29,7 @@ CMakeFiles/mylib.dir/src/keyboard.cpp.obj
 CMakeFiles/mylib.dir/src/player.cpp.obj
  ../include/bullet.h
  ../include/bulletState.h
- ../include/disappearState.h
+ ../include/flyingState.h
  ../include/player.h
  ../include/playerState.h
  ../include/standState.h
