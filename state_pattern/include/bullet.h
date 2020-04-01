@@ -1,36 +1,26 @@
-#pragma once
-
+#include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
-#include <iostream>
-#include <deque>
 
-#include "playerState.h"
-#include "bulletState.h"
-#include "bullet.h"
-
-class Player{
+class Bullet{
 
 public:
 
-	Player();
-	~Player() = default;
-
+	Bullet(float x, float y);
+	~Bullet() = default;
 	virtual void handleInput(sf::Keyboard::Key key);
 	virtual void update();
 	virtual void setPosition();
 	virtual void setPosition(float x, float y);
 	virtual void draw(sf::RenderTarget &target);
-	virtual void addBullet();
+	virtual float getDis();
 
 
-	PlayerState* state_;
-	BulletState* bullet_;
-	std::deque<Bullet*> bullet;
-
+	float startPositionX_, startPositionY_;
 	float x_, y_;
 
 private:
 
 	sf::CircleShape shape;
+
 };

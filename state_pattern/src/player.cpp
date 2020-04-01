@@ -1,9 +1,11 @@
 #include "player.h"
 #include "standState.h"
+#include "disappearState.h"
 
 Player::Player(){
 
 	state_ = new StandState();
+	bullet_ = new DisappearState();
 
 	x_ = 10;
 	y_ = 650;
@@ -18,11 +20,13 @@ Player::Player(){
 void Player::handleInput(sf::Keyboard::Key key){
 
 	state_->handleInput(*this, key);
+	bullet_->handleInput(*this, key);
 }
 
 void Player::update(){
 
 	state_->update(*this);
+	bullet_->update(*this);
 }
 
 void Player::setPosition(){
@@ -38,4 +42,18 @@ void Player::setPosition(float x, float y){
 void Player::draw(sf::RenderTarget &target){
 
 	target.draw(shape);
+
+	for(int i = 0 ; i < bullet.size() ; i++){
+
+		bullet[i]->draw(target);
+	}
+}
+
+void Player::addBullet(){
+
+	float tmpX = shape.getPosition().x;
+	float tmpY = shape.getPosition().y;
+	// Bullet tmp(tmpX, tmpY);
+
+	bullet.push_back(new Bullet(tmpX, tmpY));
 }

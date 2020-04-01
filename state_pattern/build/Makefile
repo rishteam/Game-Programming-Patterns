@@ -136,6 +136,114 @@ example/fast:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
 .PHONY : example/fast
 
+src/bullet.obj: src/bullet.cpp.obj
+
+.PHONY : src/bullet.obj
+
+# target to build an object file
+src/bullet.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bullet.cpp.obj
+.PHONY : src/bullet.cpp.obj
+
+src/bullet.i: src/bullet.cpp.i
+
+.PHONY : src/bullet.i
+
+# target to preprocess a source file
+src/bullet.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bullet.cpp.i
+.PHONY : src/bullet.cpp.i
+
+src/bullet.s: src/bullet.cpp.s
+
+.PHONY : src/bullet.s
+
+# target to generate assembly for a file
+src/bullet.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bullet.cpp.s
+.PHONY : src/bullet.cpp.s
+
+src/bulletState.obj: src/bulletState.cpp.obj
+
+.PHONY : src/bulletState.obj
+
+# target to build an object file
+src/bulletState.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bulletState.cpp.obj
+.PHONY : src/bulletState.cpp.obj
+
+src/bulletState.i: src/bulletState.cpp.i
+
+.PHONY : src/bulletState.i
+
+# target to preprocess a source file
+src/bulletState.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bulletState.cpp.i
+.PHONY : src/bulletState.cpp.i
+
+src/bulletState.s: src/bulletState.cpp.s
+
+.PHONY : src/bulletState.s
+
+# target to generate assembly for a file
+src/bulletState.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bulletState.cpp.s
+.PHONY : src/bulletState.cpp.s
+
+src/disappearState.obj: src/disappearState.cpp.obj
+
+.PHONY : src/disappearState.obj
+
+# target to build an object file
+src/disappearState.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.obj
+.PHONY : src/disappearState.cpp.obj
+
+src/disappearState.i: src/disappearState.cpp.i
+
+.PHONY : src/disappearState.i
+
+# target to preprocess a source file
+src/disappearState.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.i
+.PHONY : src/disappearState.cpp.i
+
+src/disappearState.s: src/disappearState.cpp.s
+
+.PHONY : src/disappearState.s
+
+# target to generate assembly for a file
+src/disappearState.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/disappearState.cpp.s
+.PHONY : src/disappearState.cpp.s
+
+src/generateState.obj: src/generateState.cpp.obj
+
+.PHONY : src/generateState.obj
+
+# target to build an object file
+src/generateState.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/generateState.cpp.obj
+.PHONY : src/generateState.cpp.obj
+
+src/generateState.i: src/generateState.cpp.i
+
+.PHONY : src/generateState.i
+
+# target to preprocess a source file
+src/generateState.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/generateState.cpp.i
+.PHONY : src/generateState.cpp.i
+
+src/generateState.s: src/generateState.cpp.s
+
+.PHONY : src/generateState.s
+
+# target to generate assembly for a file
+src/generateState.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/generateState.cpp.s
+.PHONY : src/generateState.cpp.s
+
 src/keyboard.obj: src/keyboard.cpp.obj
 
 .PHONY : src/keyboard.obj
@@ -335,6 +443,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... mylib"
 	@echo "... example"
+	@echo "... src/bullet.obj"
+	@echo "... src/bullet.i"
+	@echo "... src/bullet.s"
+	@echo "... src/bulletState.obj"
+	@echo "... src/bulletState.i"
+	@echo "... src/bulletState.s"
+	@echo "... src/disappearState.obj"
+	@echo "... src/disappearState.i"
+	@echo "... src/disappearState.s"
+	@echo "... src/generateState.obj"
+	@echo "... src/generateState.i"
+	@echo "... src/generateState.s"
 	@echo "... src/keyboard.obj"
 	@echo "... src/keyboard.i"
 	@echo "... src/keyboard.s"

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../include/bullet.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+
+../include/bulletState.h
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+iostream
+-
+
 ../include/keyboard.h
 SFML/Graphics.hpp
 -
@@ -21,8 +37,14 @@ SFML/System.hpp
 -
 iostream
 -
+deque
+-
 playerState.h
 ../include/playerState.h
+bulletState.h
+../include/bulletState.h
+bullet.h
+../include/bullet.h
 
 ../include/playerState.h
 SFML/Graphics.hpp

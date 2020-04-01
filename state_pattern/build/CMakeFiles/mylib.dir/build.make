@@ -135,6 +135,58 @@ CMakeFiles/mylib.dir/src/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/keyboard.cpp.s"
 	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.cpp -o CMakeFiles/mylib.dir/src/keyboard.cpp.s
 
+CMakeFiles/mylib.dir/src/bullet.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/bullet.cpp.obj: ../src/bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mylib.dir/src/bullet.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/bullet.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp
+
+CMakeFiles/mylib.dir/src/bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/bullet.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp > CMakeFiles/mylib.dir/src/bullet.cpp.i
+
+CMakeFiles/mylib.dir/src/bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/bullet.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp -o CMakeFiles/mylib.dir/src/bullet.cpp.s
+
+CMakeFiles/mylib.dir/src/bulletState.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/bulletState.cpp.obj: ../src/bulletState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mylib.dir/src/bulletState.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/bulletState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp
+
+CMakeFiles/mylib.dir/src/bulletState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/bulletState.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp > CMakeFiles/mylib.dir/src/bulletState.cpp.i
+
+CMakeFiles/mylib.dir/src/bulletState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/bulletState.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp -o CMakeFiles/mylib.dir/src/bulletState.cpp.s
+
+CMakeFiles/mylib.dir/src/generateState.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/generateState.cpp.obj: ../src/generateState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mylib.dir/src/generateState.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/generateState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/generateState.cpp
+
+CMakeFiles/mylib.dir/src/generateState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/generateState.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/generateState.cpp > CMakeFiles/mylib.dir/src/generateState.cpp.i
+
+CMakeFiles/mylib.dir/src/generateState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/generateState.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/generateState.cpp -o CMakeFiles/mylib.dir/src/generateState.cpp.s
+
+CMakeFiles/mylib.dir/src/disappearState.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/disappearState.cpp.obj: ../src/disappearState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mylib.dir/src/disappearState.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/disappearState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/disappearState.cpp
+
+CMakeFiles/mylib.dir/src/disappearState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/disappearState.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/disappearState.cpp > CMakeFiles/mylib.dir/src/disappearState.cpp.i
+
+CMakeFiles/mylib.dir/src/disappearState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/disappearState.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/disappearState.cpp -o CMakeFiles/mylib.dir/src/disappearState.cpp.s
+
 # Object files for target mylib
 mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/src/player.cpp.obj" \
@@ -142,7 +194,11 @@ mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/src/standState.cpp.obj" \
 "CMakeFiles/mylib.dir/src/playerState.cpp.obj" \
 "CMakeFiles/mylib.dir/src/walk.cpp.obj" \
-"CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
+"CMakeFiles/mylib.dir/src/keyboard.cpp.obj" \
+"CMakeFiles/mylib.dir/src/bullet.cpp.obj" \
+"CMakeFiles/mylib.dir/src/bulletState.cpp.obj" \
+"CMakeFiles/mylib.dir/src/generateState.cpp.obj" \
+"CMakeFiles/mylib.dir/src/disappearState.cpp.obj"
 
 # External object files for target mylib
 mylib_EXTERNAL_OBJECTS =
@@ -153,9 +209,13 @@ libmylib.a: CMakeFiles/mylib.dir/src/standState.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/playerState.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/walk.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/keyboard.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/bullet.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/bulletState.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/generateState.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/disappearState.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/build.make
 libmylib.a: CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libmylib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mylib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mylib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mylib.dir/src/bullet.cpp.obj"
+  "CMakeFiles/mylib.dir/src/bulletState.cpp.obj"
+  "CMakeFiles/mylib.dir/src/disappearState.cpp.obj"
+  "CMakeFiles/mylib.dir/src/generateState.cpp.obj"
   "CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
   "CMakeFiles/mylib.dir/src/player.cpp.obj"
   "CMakeFiles/mylib.dir/src/playerState.cpp.obj"

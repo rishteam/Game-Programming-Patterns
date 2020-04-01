@@ -3,11 +3,7 @@
 
 void StandState::handleInput(Player &player, sf::Keyboard::Key key){
 
-	if(key == sf::Keyboard::Q){
-
-		player.state_ = (PlayerState*)&PlayerState::shooting;
-	}
-	else if(key == sf::Keyboard::W){
+	if(key == sf::Keyboard::W){
 
 		player.state_ = (PlayerState*)&PlayerState::walkingFront;
 	}

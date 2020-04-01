@@ -6,41 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/player.h
+../include/bullet.h
+SFML/Audio.hpp
+-
 SFML/Graphics.hpp
 -
 SFML/System.hpp
 -
-iostream
+
+C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp
+bullet.h
 -
-playerState.h
-../include/playerState.h
-
-../include/playerState.h
-SFML/Graphics.hpp
--
-SFML/System.hpp
--
-iostream
--
-
-../include/standState.h
-playerState.h
-../include/playerState.h
-
-../include/walk.h
-playerState.h
-../include/playerState.h
-
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp
-standState.h
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.h
-player.h
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.h
-
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/walk.cpp
-walk.h
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/walk.h
-player.h
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.h
 

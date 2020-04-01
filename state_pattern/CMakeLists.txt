@@ -23,6 +23,10 @@ add_library(mylib STATIC
     src/playerState.cpp
     src/walk.cpp
     src/keyboard.cpp
+    src/bullet.cpp
+    src/bulletState.cpp
+    src/generateState.cpp
+    src/disappearState.cpp
 )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include
