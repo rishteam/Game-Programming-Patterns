@@ -8,8 +8,9 @@
 #include "playerState.h"
 #include "bulletState.h"
 #include "bullet.h"
+#include "Entity.h"
 
-class Player{
+class Player : public Entity{
 
 public:
 

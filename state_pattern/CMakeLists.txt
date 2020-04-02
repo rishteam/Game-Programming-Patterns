@@ -17,6 +17,7 @@ endif(MSYS)
 
 # Add static library
 add_library(mylib STATIC
+    src/entity.cpp
     src/player.cpp
     src/bullet.cpp
 	src/shootState.cpp
@@ -27,7 +28,10 @@ add_library(mylib STATIC
     src/bulletState.cpp
     src/generateState.cpp
     src/flyingState.cpp
-)
+    src/Audio.cpp
+    src/observer.cpp
+    src/subject.cpp
+    )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include
 )

@@ -4,18 +4,21 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 
-class Bullet{
+#include "entity.h"
+#include "subject.h"
+
+class Bullet: public Entity{
 
 public:
 
 	Bullet(float x, float y);
 	~Bullet() = default;
-	void handleInput(sf::Keyboard::Key key);
-	void update();
-	void setPosition();
-	void setPosition(float x, float y);
-	void draw(sf::RenderTarget &target);
-	float getDis();
+	virtual void handleInput(sf::Keyboard::Key key);
+	virtual void update();
+	virtual void setPosition();
+	virtual void setPosition(float x, float y);
+	virtual void draw(sf::RenderTarget &target);
+	virtual float getDis();
 
 
 	float startPositionX_, startPositionY_;

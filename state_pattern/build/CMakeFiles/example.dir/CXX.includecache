@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+../include/Audio.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+string
+-
+observer.h
+../include/observer.h
+audioEvent.h
+../include/audioEvent.h
+
+../include/Entity.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+
+../include/audioEvent.h
+
 ../include/bullet.h
 SFML/Audio.hpp
 -
@@ -13,6 +37,10 @@ SFML/Graphics.hpp
 -
 SFML/System.hpp
 -
+entity.h
+../include/Entity.h
+subject.h
+../include/subject.h
 
 ../include/bulletState.h
 SFML/Graphics.hpp
@@ -21,6 +49,8 @@ SFML/System.hpp
 -
 iostream
 -
+Audio.h
+../include/Audio.h
 
 ../include/keyboard.h
 SFML/Graphics.hpp
@@ -29,6 +59,16 @@ SFML/System.hpp
 -
 iostream
 -
+
+../include/observer.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+entity.h
+../include/entity.h
 
 ../include/player.h
 SFML/Graphics.hpp
@@ -45,6 +85,8 @@ bulletState.h
 ../include/bulletState.h
 bullet.h
 ../include/bullet.h
+Entity.h
+../include/Entity.h
 
 ../include/playerState.h
 SFML/Graphics.hpp
@@ -53,6 +95,20 @@ SFML/System.hpp
 -
 iostream
 -
+
+../include/subject.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+list
+-
+observer.h
+../include/observer.h
+entity.h
+../include/entity.h
 
 C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/main.cpp
 SFML/Audio.hpp
@@ -67,4 +123,6 @@ player.h
 -
 keyboard.h
 C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.h
+Audio.h
+C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/Audio.h
 

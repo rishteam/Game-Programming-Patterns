@@ -7,11 +7,17 @@ Bullet::Bullet(float x, float y){
 	
 	shape.setRadius(5);
 	shape.setFillColor(sf::Color::Red);
+
+	player_ = false;
 }
 
 void Bullet::setPosition(){
 
 	shape.setPosition(x_, y_);
+}
+
+void Bullet::handleInput(sf::Keyboard::Key key){
+
 }
 
 void Bullet::setPosition(float x, float y){

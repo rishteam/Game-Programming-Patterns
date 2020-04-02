@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
-../include/keyboard.h
+../include/entity.h
+SFML/Audio.hpp
+-
 SFML/Graphics.hpp
 -
 SFML/System.hpp
 -
-iostream
--
 
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.cpp
-keyboard.h
-C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.h
+../include/observer.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+entity.h
+../include/entity.h
+
+../include/subject.h
+SFML/Audio.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+list
+-
+observer.h
+../include/observer.h
+entity.h
+../include/entity.h
+
+C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.cpp
+subject.h
+C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.h
 

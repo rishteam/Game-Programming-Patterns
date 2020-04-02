@@ -57,9 +57,22 @@ include CMakeFiles/mylib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mylib.dir/flags.make
 
+CMakeFiles/mylib.dir/src/entity.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/entity.cpp.obj: ../src/entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mylib.dir/src/entity.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/entity.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/entity.cpp
+
+CMakeFiles/mylib.dir/src/entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/entity.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/entity.cpp > CMakeFiles/mylib.dir/src/entity.cpp.i
+
+CMakeFiles/mylib.dir/src/entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/entity.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/entity.cpp -o CMakeFiles/mylib.dir/src/entity.cpp.s
+
 CMakeFiles/mylib.dir/src/player.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/player.cpp.obj: ../src/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mylib.dir/src/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mylib.dir/src/player.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/player.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp
 
 CMakeFiles/mylib.dir/src/player.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/mylib.dir/src/player.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/bullet.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/bullet.cpp.obj: ../src/bullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mylib.dir/src/bullet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mylib.dir/src/bullet.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/bullet.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp
 
 CMakeFiles/mylib.dir/src/bullet.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/mylib.dir/src/bullet.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/shootState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/shootState.cpp.obj: ../src/shootState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mylib.dir/src/shootState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mylib.dir/src/shootState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/shootState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/shootState.cpp
 
 CMakeFiles/mylib.dir/src/shootState.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/mylib.dir/src/shootState.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/standState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/standState.cpp.obj: ../src/standState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mylib.dir/src/standState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mylib.dir/src/standState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/standState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp
 
 CMakeFiles/mylib.dir/src/standState.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/mylib.dir/src/standState.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/playerState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/playerState.cpp.obj: ../src/playerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mylib.dir/src/playerState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mylib.dir/src/playerState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/playerState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/playerState.cpp
 
 CMakeFiles/mylib.dir/src/playerState.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/mylib.dir/src/playerState.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/walk.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/walk.cpp.obj: ../src/walk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mylib.dir/src/walk.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mylib.dir/src/walk.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/walk.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/walk.cpp
 
 CMakeFiles/mylib.dir/src/walk.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/mylib.dir/src/walk.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/keyboard.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/keyboard.cpp.obj: ../src/keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/keyboard.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.cpp
 
 CMakeFiles/mylib.dir/src/keyboard.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/mylib.dir/src/keyboard.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/bulletState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/bulletState.cpp.obj: ../src/bulletState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mylib.dir/src/bulletState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mylib.dir/src/bulletState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/bulletState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp
 
 CMakeFiles/mylib.dir/src/bulletState.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/mylib.dir/src/bulletState.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/generateState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/generateState.cpp.obj: ../src/generateState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mylib.dir/src/generateState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mylib.dir/src/generateState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/generateState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/generateState.cpp
 
 CMakeFiles/mylib.dir/src/generateState.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/mylib.dir/src/generateState.cpp.s: cmake_force
 
 CMakeFiles/mylib.dir/src/flyingState.cpp.obj: CMakeFiles/mylib.dir/flags.make
 CMakeFiles/mylib.dir/src/flyingState.cpp.obj: ../src/flyingState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mylib.dir/src/flyingState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mylib.dir/src/flyingState.cpp.obj"
 	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/flyingState.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/flyingState.cpp
 
 CMakeFiles/mylib.dir/src/flyingState.cpp.i: cmake_force
@@ -187,8 +200,48 @@ CMakeFiles/mylib.dir/src/flyingState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/flyingState.cpp.s"
 	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/flyingState.cpp -o CMakeFiles/mylib.dir/src/flyingState.cpp.s
 
+CMakeFiles/mylib.dir/src/Audio.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/Audio.cpp.obj: ../src/Audio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mylib.dir/src/Audio.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/Audio.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/Audio.cpp
+
+CMakeFiles/mylib.dir/src/Audio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/Audio.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/Audio.cpp > CMakeFiles/mylib.dir/src/Audio.cpp.i
+
+CMakeFiles/mylib.dir/src/Audio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/Audio.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/Audio.cpp -o CMakeFiles/mylib.dir/src/Audio.cpp.s
+
+CMakeFiles/mylib.dir/src/observer.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/observer.cpp.obj: ../src/observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mylib.dir/src/observer.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/observer.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/observer.cpp
+
+CMakeFiles/mylib.dir/src/observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/observer.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/observer.cpp > CMakeFiles/mylib.dir/src/observer.cpp.i
+
+CMakeFiles/mylib.dir/src/observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/observer.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/observer.cpp -o CMakeFiles/mylib.dir/src/observer.cpp.s
+
+CMakeFiles/mylib.dir/src/subject.cpp.obj: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/src/subject.cpp.obj: ../src/subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mylib.dir/src/subject.cpp.obj"
+	/C/msys64/mingw32/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mylib.dir/src/subject.cpp.obj -c /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.cpp
+
+CMakeFiles/mylib.dir/src/subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mylib.dir/src/subject.cpp.i"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.cpp > CMakeFiles/mylib.dir/src/subject.cpp.i
+
+CMakeFiles/mylib.dir/src/subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mylib.dir/src/subject.cpp.s"
+	/C/msys64/mingw32/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.cpp -o CMakeFiles/mylib.dir/src/subject.cpp.s
+
 # Object files for target mylib
 mylib_OBJECTS = \
+"CMakeFiles/mylib.dir/src/entity.cpp.obj" \
 "CMakeFiles/mylib.dir/src/player.cpp.obj" \
 "CMakeFiles/mylib.dir/src/bullet.cpp.obj" \
 "CMakeFiles/mylib.dir/src/shootState.cpp.obj" \
@@ -198,11 +251,15 @@ mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/src/keyboard.cpp.obj" \
 "CMakeFiles/mylib.dir/src/bulletState.cpp.obj" \
 "CMakeFiles/mylib.dir/src/generateState.cpp.obj" \
-"CMakeFiles/mylib.dir/src/flyingState.cpp.obj"
+"CMakeFiles/mylib.dir/src/flyingState.cpp.obj" \
+"CMakeFiles/mylib.dir/src/Audio.cpp.obj" \
+"CMakeFiles/mylib.dir/src/observer.cpp.obj" \
+"CMakeFiles/mylib.dir/src/subject.cpp.obj"
 
 # External object files for target mylib
 mylib_EXTERNAL_OBJECTS =
 
+libmylib.a: CMakeFiles/mylib.dir/src/entity.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/player.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/bullet.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/shootState.cpp.obj
@@ -213,9 +270,12 @@ libmylib.a: CMakeFiles/mylib.dir/src/keyboard.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/bulletState.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/generateState.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/src/flyingState.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/Audio.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/observer.cpp.obj
+libmylib.a: CMakeFiles/mylib.dir/src/subject.cpp.obj
 libmylib.a: CMakeFiles/mylib.dir/build.make
 libmylib.a: CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libmylib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mylib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mylib.dir/link.txt --verbose=$(VERBOSE)
 

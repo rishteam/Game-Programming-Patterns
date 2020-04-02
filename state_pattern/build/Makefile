@@ -136,6 +136,33 @@ example/fast:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
 .PHONY : example/fast
 
+src/Audio.obj: src/Audio.cpp.obj
+
+.PHONY : src/Audio.obj
+
+# target to build an object file
+src/Audio.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/Audio.cpp.obj
+.PHONY : src/Audio.cpp.obj
+
+src/Audio.i: src/Audio.cpp.i
+
+.PHONY : src/Audio.i
+
+# target to preprocess a source file
+src/Audio.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/Audio.cpp.i
+.PHONY : src/Audio.cpp.i
+
+src/Audio.s: src/Audio.cpp.s
+
+.PHONY : src/Audio.s
+
+# target to generate assembly for a file
+src/Audio.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/Audio.cpp.s
+.PHONY : src/Audio.cpp.s
+
 src/bullet.obj: src/bullet.cpp.obj
 
 .PHONY : src/bullet.obj
@@ -189,6 +216,33 @@ src/bulletState.s: src/bulletState.cpp.s
 src/bulletState.cpp.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/bulletState.cpp.s
 .PHONY : src/bulletState.cpp.s
+
+src/entity.obj: src/entity.cpp.obj
+
+.PHONY : src/entity.obj
+
+# target to build an object file
+src/entity.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/entity.cpp.obj
+.PHONY : src/entity.cpp.obj
+
+src/entity.i: src/entity.cpp.i
+
+.PHONY : src/entity.i
+
+# target to preprocess a source file
+src/entity.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/entity.cpp.i
+.PHONY : src/entity.cpp.i
+
+src/entity.s: src/entity.cpp.s
+
+.PHONY : src/entity.s
+
+# target to generate assembly for a file
+src/entity.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/entity.cpp.s
+.PHONY : src/entity.cpp.s
 
 src/flyingState.obj: src/flyingState.cpp.obj
 
@@ -298,6 +352,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/observer.obj: src/observer.cpp.obj
+
+.PHONY : src/observer.obj
+
+# target to build an object file
+src/observer.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/observer.cpp.obj
+.PHONY : src/observer.cpp.obj
+
+src/observer.i: src/observer.cpp.i
+
+.PHONY : src/observer.i
+
+# target to preprocess a source file
+src/observer.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/observer.cpp.i
+.PHONY : src/observer.cpp.i
+
+src/observer.s: src/observer.cpp.s
+
+.PHONY : src/observer.s
+
+# target to generate assembly for a file
+src/observer.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/observer.cpp.s
+.PHONY : src/observer.cpp.s
+
 src/player.obj: src/player.cpp.obj
 
 .PHONY : src/player.obj
@@ -406,6 +487,33 @@ src/standState.cpp.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/standState.cpp.s
 .PHONY : src/standState.cpp.s
 
+src/subject.obj: src/subject.cpp.obj
+
+.PHONY : src/subject.obj
+
+# target to build an object file
+src/subject.cpp.obj:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/subject.cpp.obj
+.PHONY : src/subject.cpp.obj
+
+src/subject.i: src/subject.cpp.i
+
+.PHONY : src/subject.i
+
+# target to preprocess a source file
+src/subject.cpp.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/subject.cpp.i
+.PHONY : src/subject.cpp.i
+
+src/subject.s: src/subject.cpp.s
+
+.PHONY : src/subject.s
+
+# target to generate assembly for a file
+src/subject.cpp.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/subject.cpp.s
+.PHONY : src/subject.cpp.s
+
 src/walk.obj: src/walk.cpp.obj
 
 .PHONY : src/walk.obj
@@ -443,12 +551,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... mylib"
 	@echo "... example"
+	@echo "... src/Audio.obj"
+	@echo "... src/Audio.i"
+	@echo "... src/Audio.s"
 	@echo "... src/bullet.obj"
 	@echo "... src/bullet.i"
 	@echo "... src/bullet.s"
 	@echo "... src/bulletState.obj"
 	@echo "... src/bulletState.i"
 	@echo "... src/bulletState.s"
+	@echo "... src/entity.obj"
+	@echo "... src/entity.i"
+	@echo "... src/entity.s"
 	@echo "... src/flyingState.obj"
 	@echo "... src/flyingState.i"
 	@echo "... src/flyingState.s"
@@ -461,6 +575,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/observer.obj"
+	@echo "... src/observer.i"
+	@echo "... src/observer.s"
 	@echo "... src/player.obj"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
@@ -473,6 +590,9 @@ help:
 	@echo "... src/standState.obj"
 	@echo "... src/standState.i"
 	@echo "... src/standState.s"
+	@echo "... src/subject.obj"
+	@echo "... src/subject.i"
+	@echo "... src/subject.s"
 	@echo "... src/walk.obj"
 	@echo "... src/walk.i"
 	@echo "... src/walk.s"

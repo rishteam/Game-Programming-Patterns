@@ -7,6 +7,8 @@ Player::Player(){
 	state_ = new StandState();
 	bullet_ = new FlyingState();
 
+	player_ = true;
+
 	x_ = 10;
 	y_ = 650;
 

@@ -5,6 +5,7 @@
 #include <iostream>
 #include <player.h>
 #include "keyboard.h"
+#include "Audio.h"
 
 Keyboard keyboard;
 
@@ -46,14 +47,6 @@ int main(){
 	}
 
 
-
-	// while(1){
-
-	// 	counter++;
-
-	// 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) player.handleInput(sf::Keyboard::Q);
-	// 	else if(sf::Keyboard::isKeyPressed(sf::Keyboard::E)) player.handleInput(sf::Keyboard::E);
-	// }
 
 	return 0;
 }

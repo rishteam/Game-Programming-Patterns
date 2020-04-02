@@ -4,15 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/Audio.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/Audio.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bullet.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/bullet.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/bulletState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/bulletState.cpp.obj"
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/entity.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/entity.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/flyingState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/flyingState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/generateState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/generateState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/keyboard.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/keyboard.cpp.obj"
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/observer.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/observer.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/player.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/player.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/playerState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/playerState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/shootState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/shootState.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/standState.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/standState.cpp.obj"
+  "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/subject.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/subject.cpp.obj"
   "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/src/walk.cpp" "C:/Users/lpc0503/Desktop/Game-Programming-Patterns/state_pattern/build/CMakeFiles/mylib.dir/src/walk.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
