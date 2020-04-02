@@ -1,5 +1,5 @@
-#include "flyingState.h"
-#include "player.h"
+#include "bullet/flyingState.h"
+#include "player/player.h"
 
 void FlyingState::handleInput(Player &player, sf::Keyboard::Key key){
 

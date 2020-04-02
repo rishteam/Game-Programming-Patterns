@@ -3,7 +3,7 @@
 #include <SFML/System.hpp>
 
 #include <iostream>
-#include <player.h>
+#include "player/player.h"
 #include "keyboard.h"
 #include "Audio.h"
 
@@ -11,12 +11,10 @@ Keyboard keyboard;
 
 int main(){
 
-
 	Player player;
 	int counter = 0;
 
 	// std::cout << "press Q shoot, press E stand\n";
-	
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "State Pattern");
 
 	while(window.isOpen()){
@@ -45,8 +43,4 @@ int main(){
 		player.draw(window);
 		window.display();
 	}
-
-
-
-	return 0;
 }
