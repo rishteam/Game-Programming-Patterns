@@ -28,13 +28,13 @@ int main(){
 			if(event.type == sf::Event::KeyPressed){
 
 				printf("key pressed\n");
-				player.handleInput(keyboard.getKey());
+				player.handleInput(keyboard.getKey(event.key.code));
 			}
 
 			if(event.type == sf::Event::KeyReleased){
 
 				printf("key released\n");
-				player.handleInput(keyboard.getKey());
+				player.handleInput(keyboard.getKey(sf::Keyboard::Unknown));
 			}
 		}
 

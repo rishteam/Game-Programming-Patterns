@@ -9,5 +9,5 @@ class Keyboard
 
 public:
 	Keyboard() = default;
-	sf::Keyboard::Key getKey();
+	sf::Keyboard::Key getKey(int keyCode);
 };
