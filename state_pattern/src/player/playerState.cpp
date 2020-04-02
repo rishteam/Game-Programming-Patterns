@@ -1,8 +1,8 @@
-#include "playerState.h"
+#include "player/playerState.h"
 
-#include "shootState.h"
-#include "standState.h"
-#include "walk.h"
+#include "player/shootState.h"
+#include "player/standState.h"
+#include "player/walk.h"
 
 ShootState PlayerState::shooting;
 StandState PlayerState::standing;
@@ -10,5 +10,3 @@ WalkFrontState PlayerState::walkingFront;
 WalkBackState PlayerState::walkingBack;
 WalkRightState PlayerState::walkingRight;
 WalkLeftState PlayerState::walkingLeft;
-
-

@@ -5,9 +5,9 @@
 #include <iostream>
 #include <deque>
 
-#include "playerState.h"
-#include "bulletState.h"
-#include "bullet.h"
+#include "player/playerState.h"
+#include "bullet/bulletState.h"
+#include "bullet/bullet.h"
 #include "Entity.h"
 
 class Player : public Entity{

@@ -18,16 +18,19 @@ endif(MSYS)
 # Add static library
 add_library(mylib STATIC
     src/entity.cpp
-    src/player.cpp
-    src/bullet.cpp
-	src/shootState.cpp
-    src/standState.cpp
-    src/playerState.cpp
-    src/walk.cpp
+    # Player
+    src/player/player.cpp
+	src/player/shootState.cpp
+    src/player/standState.cpp
+    src/player/playerState.cpp
+    src/player/walk.cpp
+    # Bullet
+    src/bullet/bullet.cpp
+    src/bullet/bulletState.cpp
+    src/bullet/generateState.cpp
+    src/bullet/flyingState.cpp
+    #
     src/keyboard.cpp
-    src/bulletState.cpp
-    src/generateState.cpp
-    src/flyingState.cpp
     src/Audio.cpp
     src/observer.cpp
     src/subject.cpp

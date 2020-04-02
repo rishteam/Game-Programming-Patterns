@@ -1,7 +1,7 @@
-#include "bulletState.h"
+#include "bullet/bulletState.h"
 
-#include "generateState.h"
-#include "flyingState.h"
+#include "bullet/generateState.h"
+#include "bullet/flyingState.h"
 #include "Audio.h"
 
 GenerateState BulletState::generateing;

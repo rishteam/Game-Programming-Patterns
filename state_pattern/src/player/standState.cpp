@@ -1,5 +1,5 @@
-#include "standState.h"
-#include "player.h"
+#include "player/standState.h"
+#include "player/player.h"
 
 void StandState::handleInput(Player &player, sf::Keyboard::Key key){
 

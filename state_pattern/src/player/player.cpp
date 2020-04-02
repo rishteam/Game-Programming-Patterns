@@ -1,6 +1,6 @@
-#include "player.h"
-#include "standState.h"
-#include "flyingState.h"
+#include "player/player.h"
+#include "player/standState.h"
+#include "bullet/flyingState.h"
 
 Player::Player(){
 

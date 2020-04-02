@@ -1,5 +1,5 @@
-#include "walk.h"
-#include "player.h"
+#include "player/walk.h"
+#include "player/player.h"
 
 /****** WalkFront ******/
 

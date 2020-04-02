@@ -1,5 +1,5 @@
-#include "shootState.h"
-#include "player.h"
+#include "player/shootState.h"
+#include "player/player.h"
 
 void ShootState::handleInput(Player &player, sf::Keyboard::Key key){
 

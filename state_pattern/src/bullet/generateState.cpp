@@ -1,5 +1,5 @@
-#include "generateState.h"
-#include "player.h"
+#include "bullet/generateState.h"
+#include "player/player.h"
 
 GenerateState::GenerateState(){
 
