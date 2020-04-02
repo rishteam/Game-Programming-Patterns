@@ -5,7 +5,6 @@ Subject::Subject(){
 	numObservers = 0;
 }
 
-
 void Subject::addObserver(Observer* observer){
 
 	observers_.push_back(observer);
@@ -31,7 +30,7 @@ void Subject::notify(Entity &entity, int event){
 }
 
 void Subject::removeObserver(Observer* observer){
-
+	// TODO: 可以用 std::find() ?
 	for(std::list<Observer*>::iterator it = observers_.begin(); it != observers_.end();){
 
 		if(*it == observer){

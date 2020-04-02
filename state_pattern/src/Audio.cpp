@@ -1,3 +1,3 @@
 #include "Audio.h"
 
-Audio *Audio::audio;
+Audio *Audio::audio = new Audio();
