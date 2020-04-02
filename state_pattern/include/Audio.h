@@ -21,8 +21,7 @@ public:
 
 			case SHOOT:
 
-				if (entity.isPlayer())
-				{
+				if (entity.isPlayer()){
 
 					soundEffect("data/gun_shoot.wav");
 				}

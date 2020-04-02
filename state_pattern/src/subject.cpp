@@ -14,9 +14,7 @@ void Subject::addObserver(Observer* observer){
 
 void Subject::notify(Entity &entity, int event){
 
-
 	printf("notify::%d\n", getsize());
-
 
 	for(auto &it : observers_){
 
