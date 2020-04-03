@@ -7,45 +7,50 @@ Subject::Subject(){
 
 void Subject::addObserver(Observer* observer){
 
-	observers_.push_back(observer);
-	printf("%d\n", observers_.size());
+	observers_[numObservers++] = observer;
+
+	// observers_.push_back(observer);
+	// printf("%d\n", observers_.size());
 }
 
 void Subject::notify(Entity &entity, int event){
 
-	printf("notify::%d\n", getsize());
+	for(int i = 0 ; i < numObservers ; i++){
 
-	for(auto &it : observers_){
-
-		if(it != nullptr){
-
-			printf("in notify\n");
-			it->onNotify(entity, event);
-		}
-		else{
-
-			printf("nullptr\n");
-		}
+		observers_[i]->onNotify(entity, event);
 	}
+
+	// for(auto &it : observers_){
+
+	// 	if(it != nullptr){
+
+	// 		printf("in notify\n");
+	// 		it->onNotify(entity, event);
+	// 	}
+	// 	else{
+
+	// 		printf("nullptr\n");
+	// 	}
+	// }
 }
 
 void Subject::removeObserver(Observer* observer){
 	// TODO: 可以用 std::find() ?
-	for(std::list<Observer*>::iterator it = observers_.begin(); it != observers_.end();){
+	// for(std::list<Observer*>::iterator it = observers_.begin(); it != observers_.end();){
 
-		if(*it == observer){
+	// 	if(*it == observer){
 
-			observers_.erase(it);
-			break;
-		}
-		else{
+	// 		observers_.erase(it);
+	// 		break;
+	// 	}
+	// 	else{
 
-			++it;
-		}
-	}
+	// 		++it;
+	// 	}
+	// }
 }
 
 int Subject::getsize(){
 
-	return observers_.size();
+	return numObservers;
 }

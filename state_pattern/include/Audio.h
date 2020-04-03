@@ -5,6 +5,10 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <string>
+#include <unordered_map>
+#include <deque>
+#include <utility>
+#include <functional>
 
 #include "observer.h"
 #include "audioEvent.h"
@@ -17,20 +21,31 @@ public:
 	static Audio *audio;
 
 	virtual void onNotify(Entity &entity, int event){
-		printf("onNotify\n");
+
+		status_ = event;
+
 		switch (event){
+
+			case CLEAR:
+				clear();
+			break;
 
 			case SHOOT:
 
-<<<<<<< HEAD
 				if (entity.isPlayer()){
 
-=======
-				if (entity.isPlayer())
-				{
->>>>>>> 2fb413dad27ada882b538e88ca029896ddfcca87
-					soundEffect("data/gun_shoot.wav");
+					soundEffect("gun_shoot");
 				}
+			break;
+
+			case WALK:
+
+				if (entity.isPlayer()){
+
+					soundEffect("walk", true);
+
+				}
+
 			break;
 		}
 	}
@@ -41,14 +56,61 @@ public:
 	}
 
 private:
-	Audio() = default;
+	Audio(){
 
-	virtual void soundEffect(std::string seName){
+		preStatus_ = CLEAR;
+		status_ = CLEAR;
 
-		sf::SoundBuffer soundBuffer;
-		if (!soundBuffer.loadFromFile(seName))
-			printf("Failed to load sound effect: %s\n", seName.c_str());
-		sf::Sound se(soundBuffer);
-		se.play();
+		if(!tmp.loadFromFile("data/gun_shoot.wav"))
+			printf("Failed to load sound effect\n");
+		soundBuffer["gun_shoot"] = tmp;
+
+		if(!tmp.loadFromFile("data/walk.wav"))
+			printf("Failed to load sound effect\n");
+		soundBuffer["walk"] = tmp;
 	}
+
+	virtual void soundEffect(std::string seName, bool continuous=false){
+
+		static bool load = false;
+
+		if(status_ != preStatus_){
+			
+			load = false;
+		}
+
+		if(!load){
+
+			se.setBuffer(soundBuffer[seName]);
+			load = true;
+
+			if(status_ == SHOOT)
+				printf("load Shoot effect\n");
+			else if(status_ == WALK)
+				printf("load Walk effect\n");
+		}
+
+		if(continuous){
+
+			if (se.getStatus() == sf::Sound::Stopped)
+				se.play();
+		}
+		else{
+
+			se.play();
+		}
+
+		preStatus_ = status_;
+	}
+
+	virtual void clear(){
+
+	}
+
+	int status_, preStatus_;
+
+	std::unordered_map<std::string, sf::SoundBuffer> soundBuffer;
+	sf::SoundBuffer tmp;
+
+	sf::Sound se;
 };

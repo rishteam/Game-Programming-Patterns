@@ -4,10 +4,15 @@
 #include <SFML/System.hpp>
 #include <iostream>
 
-class Keyboard
-{
+class Keyboard{
 
 public:
-	Keyboard() = default;
+
+	Keyboard();
 	sf::Keyboard::Key getKey(int keyCode);
+
+private:
+
+	int preKey_;
+	int key_;
 };

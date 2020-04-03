@@ -1,5 +1,6 @@
 #include "bullet/generateState.h"
 #include "player/player.h"
+#include "audioEvent.h"
 
 GenerateState::GenerateState(){
 
@@ -18,6 +19,6 @@ void GenerateState::handleInput(Player &player, sf::Keyboard::Key key){
 void GenerateState::update(Player &player){
 
 	player.addBullet();
-	notify(player, 0);
+	notify(player, SHOOT);
 	player.bullet_ = (BulletState *)&BulletState::flying;
 }

@@ -10,7 +10,5 @@ FlyingState BulletState::flying;
 
 BulletState::BulletState(){
 
-	// addObserver(Audio::audio);
-	// printf("add audio\n");
 }
 

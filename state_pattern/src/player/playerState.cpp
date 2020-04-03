@@ -10,3 +10,10 @@ WalkFrontState PlayerState::walkingFront;
 WalkBackState PlayerState::walkingBack;
 WalkRightState PlayerState::walkingRight;
 WalkLeftState PlayerState::walkingLeft;
+
+
+PlayerState::PlayerState(){
+
+	printf("add player observer\n");
+	addObserver(Audio::audio);
+}

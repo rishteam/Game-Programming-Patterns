@@ -20,14 +20,14 @@ public:
 	void removeObserver(Observer* observer);
 
 	int getsize();
-
-
+	
 protected:
 
 	void notify(Entity &entity, int event);
 
 private:
 
-	std::list<Observer*> observers_;
+	Observer* observers_[MAX_OBSERVERS];
+	// std::list<Observer*> observers_;
 	int numObservers;
 };

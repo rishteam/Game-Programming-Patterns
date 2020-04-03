@@ -7,18 +7,21 @@
 #include "keyboard.h"
 #include "Audio.h"
 
+#define MS_PER_FRAME 120
+
 Keyboard keyboard;
 
 int main(){
 
 	Player player;
-	int counter = 0;
 
-	// std::cout << "press Q shoot, press E stand\n";
+	sf::Clock clock;
+
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "State Pattern");
 
 	while(window.isOpen()){
 
+		sf::Time start = clock.getElapsedTime();
 		sf::Event event;
 
 		while(window.pollEvent(event)){
@@ -42,5 +45,7 @@ int main(){
 		window.clear();
 		player.draw(window);
 		window.display();
+
+		sf::sleep(start - clock.getElapsedTime());
 	}
 }

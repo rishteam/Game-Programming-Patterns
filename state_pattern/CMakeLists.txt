@@ -55,8 +55,7 @@ target_link_libraries(example
     sfml-system sfml-window sfml-graphics sfml-network sfml-audio
 )
 
-
-
+file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR})
 if(APPLE)
     target_link_libraries(example
         mylib
