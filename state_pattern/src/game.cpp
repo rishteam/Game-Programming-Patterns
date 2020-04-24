@@ -8,9 +8,9 @@ Game::Game(std::string title)
 	window.create(sf::VideoMode(windowWidth_, windowHeight_), title);
 }
 
-
 void Game::gameLoop()
 {
+	printf("------In Game Loop------\n");
 	sf::Clock clock;
 	sf::Time time;
 	double lag = 0.0;
@@ -19,6 +19,7 @@ void Game::gameLoop()
 	{
 		time = clock.restart();
 		lag += (double)time.asMilliseconds();
+		printf("lag: %lf\n", lag);// comment this then the game will lag
 
 		processInput();
 	
@@ -32,6 +33,7 @@ void Game::gameLoop()
 		render();
 		window.display();
 	}
+	printf("------End Game Loop------\n");
 }
 
 void Game::processInput()
