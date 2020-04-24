@@ -16,7 +16,7 @@ void WalkFrontState::handleInput(Player &player, sf::Keyboard::Key key){
 void WalkFrontState::update(Player &player){
 
 	notify(player, WALK);
-	player.y_ -= 0.2;
+	player.y_ -= 10;
 	player.setPosition();
 }
 
@@ -35,7 +35,7 @@ void WalkBackState::handleInput(Player &player, sf::Keyboard::Key key){
 void WalkBackState::update(Player &player){
 
 	notify(player, WALK);
-	player.y_ += 0.2;
+	player.y_ += 10;
 	player.setPosition();
 }
 
@@ -54,7 +54,7 @@ void WalkLeftState::handleInput(Player &player, sf::Keyboard::Key key){
 void WalkLeftState::update(Player &player){
 
 	notify(player, WALK);
-	player.x_ -= 0.2;
+	player.x_ -= 10;
 	player.setPosition();
 }
 
@@ -73,7 +73,7 @@ void WalkRightState::handleInput(Player &player, sf::Keyboard::Key key){
 void WalkRightState::update(Player &player){
 
 	notify(player, WALK);
-	player.x_ += 0.2;
+	player.x_ += 10;
 	player.setPosition(); 
 }
 

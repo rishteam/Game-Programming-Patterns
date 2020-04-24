@@ -27,7 +27,7 @@ void Bullet::setPosition(float x, float y){
 
 void Bullet::update(){
 
-	y_ -= 0.1;
+	y_ -= 20;
 	shape.setPosition(x_, y_);
 }	
 

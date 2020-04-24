@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
+add_subdirectory(deps/vfs)
+
 project(example
     VERSION 0.0.1
     DESCRIPTION "Static library example"
@@ -9,7 +11,7 @@ if(MSYS)
     set(SFML_STATIC_LIBRARIES TRUE)
 endif(MSYS)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 if(MSYS)
     set(SFML_DIR "/mingw32/lib/cmake/SFML")
@@ -34,6 +36,7 @@ add_library(mylib STATIC
     src/Audio.cpp
     src/observer.cpp
     src/subject.cpp
+    src/game.cpp
     )
 target_include_directories(mylib
     PUBLIC ${PROJECT_SOURCE_DIR}/include
@@ -50,9 +53,12 @@ find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 
 target_link_libraries(mylib
     sfml-system sfml-window sfml-graphics sfml-network sfml-audio
+    vfs::vfs
 )
+
 target_link_libraries(example
     sfml-system sfml-window sfml-graphics sfml-network sfml-audio
+    vfs::vfs
 )
 
 file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR})

@@ -1,0 +1,3 @@
+[submodule "state_pattern/deps/vfs"]
+	path = state_pattern/deps/vfs
+	url = https://github.com/rishteam/vfs.git
