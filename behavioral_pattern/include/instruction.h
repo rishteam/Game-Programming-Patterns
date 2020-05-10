@@ -11,5 +11,6 @@ enum Instruction {
     INST_ADD         = 0x07,
     INST_MINUS       = 0x08,
     INST_TIMES       = 0x09,
-    INST_DIVID       = 0x0A
+    INST_DIVID       = 0x0A,
+    INST_JUMP        = 0x0B
 };

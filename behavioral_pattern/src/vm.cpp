@@ -85,6 +85,16 @@ void VM::interpret(char bytecode[], int size){
                 break;
             }
 
+            case INST_JUMP:{
+                int value = bytecode[++i];
+                int cnt = pop() - 1;
+                if (cnt > 0){
+                    i += (value - 1);
+                    push(cnt);
+                }
+                break;
+            }
+
             default:
                 break;
         }
